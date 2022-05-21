@@ -90,7 +90,7 @@ pop_isLeafNode：是否作为统计子节点, 进而截断所有子节点统计�
 
 （3）举例：
 
-![AntennaLevel](/Users/Brooks/WorkSpace/AntennaSDK/AntennaLevel.png)
+![](https://github.com/BrooksWon/AntennaSDK/blob/main/AntennaLevel.png)
 
 
 默认规则统计ID为：ViewControllerA_ViewB_VIewC ;
@@ -121,7 +121,9 @@ Antenna包括三部分：Antenna，对外统一接口；Channel，每个渠道�
 
 Antenna接收到事件后，会尝试发送到各个渠道，发送失败则保存到本地，待后续发送。
 
-![](/Users/Brooks/WorkSpace/AntennaSDK/evcentRout.png)
+![](https://github.com/BrooksWon/AntennaSDK/blob/main/evcentRout.png)
+
+
 
 ## 写在最后:
 目的: 为了是现有工程0改动接入组件, 防止了业务class侵入AntennaSDK.
