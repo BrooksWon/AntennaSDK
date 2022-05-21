@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45416236AA8E837054526A93 /* Pods_AntennaSDKDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE23BF446BFFA33F763A653 /* Pods_AntennaSDKDemoTests.framework */; };
+		60A411622BBA4E4425EDF05E /* Pods_AntennaSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BB0EDA9F9CAF86250C7688 /* Pods_AntennaSDKDemo.framework */; };
+		981FEE5F2071C4F000620432 /* UIView+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FEE3F2071C4F000620432 /* UIView+Log.m */; };
+		981FEE602071C4F000620432 /* UIView+ABTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FEE432071C4F000620432 /* UIView+ABTesting.m */; };
+		981FEE612071C4F000620432 /* UIViewController+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FEE442071C4F000620432 /* UIViewController+Log.m */; };
+		981FEE622071C4F000620432 /* Antenna.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FEE462071C4F000620432 /* Antenna.m */; };
+		981FEE632071C4F000620432 /* AntennaArchiverChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FEE4B2071C4F000620432 /* AntennaArchiverChannel.m */; };
+		981FEE642071C4F000620432 /* AntennaUploadTaskOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FEE512071C4F000620432 /* AntennaUploadTaskOperation.m */; };
+		981FEE652071C4F000620432 /* AntennaChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FEE522071C4F000620432 /* AntennaChannel.m */; };
+		981FEE662071C4F000620432 /* AntennaUMengChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FEE542071C4F000620432 /* AntennaUMengChannel.m */; };
+		981FEE672071C4F000620432 /* AntennaConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FEE552071C4F000620432 /* AntennaConfig.m */; };
+		981FEE682071C4F000620432 /* AntennaRadioWaveObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FEE572071C4F000620432 /* AntennaRadioWaveObject.m */; };
+		981FEE692071C4F000620432 /* AntennaLumerjackChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FEE582071C4F000620432 /* AntennaLumerjackChannel.m */; };
+		981FEE6A2071C4F000620432 /* AntennaEventChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FEE592071C4F000620432 /* AntennaEventChannel.m */; };
+		981FEE6B2071C4F000620432 /* AntennaHTTPChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FEE5A2071C4F000620432 /* AntennaHTTPChannel.m */; };
+		981FEE6C2071C4F000620432 /* AntennaStreamChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FEE5B2071C4F000620432 /* AntennaStreamChannel.m */; };
+		981FEE6D2071C4F000620432 /* EventInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FEE5E2071C4F000620432 /* EventInterceptor.m */; };
+		9852DB95200B5A8200BDCE10 /* Antenna+POP.m in Sources */ = {isa = PBXBuildFile; fileRef = 9852DB94200B5A8200BDCE10 /* Antenna+POP.m */; };
+		9852DB96200B5A8200BDCE10 /* Antenna+POP.m in Sources */ = {isa = PBXBuildFile; fileRef = 9852DB94200B5A8200BDCE10 /* Antenna+POP.m */; };
+		9852DBA3200B7D6100BDCE10 /* POPAspect.m in Sources */ = {isa = PBXBuildFile; fileRef = 9852DBA2200B7D6100BDCE10 /* POPAspect.m */; };
+		9852DBA4200B7D6100BDCE10 /* POPAspect.m in Sources */ = {isa = PBXBuildFile; fileRef = 9852DBA2200B7D6100BDCE10 /* POPAspect.m */; };
+		985B3F742008E657005EDCF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 985B3F732008E657005EDCF2 /* AppDelegate.m */; };
+		985B3F772008E657005EDCF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 985B3F762008E657005EDCF2 /* ViewController.m */; };
+		985B3F7A2008E657005EDCF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985B3F782008E657005EDCF2 /* Main.storyboard */; };
+		985B3F7C2008E657005EDCF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985B3F7B2008E657005EDCF2 /* Assets.xcassets */; };
+		985B3F7F2008E657005EDCF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985B3F7D2008E657005EDCF2 /* LaunchScreen.storyboard */; };
+		985B3F822008E658005EDCF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 985B3F812008E658005EDCF2 /* main.m */; };
+		985B3F8C2008E658005EDCF2 /* AntennaSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 985B3F8B2008E658005EDCF2 /* AntennaSDKDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		985B3F882008E658005EDCF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 985B3F672008E657005EDCF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 985B3F6E2008E657005EDCF2;
+			remoteInfo = AntennaSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0473DDE1FA61E75595F8F971 /* Pods-AntennaSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntennaSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AntennaSDKDemo/Pods-AntennaSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0D9EFB0C3649D5DD9E340BC6 /* Pods-AntennaSDKDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntennaSDKDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AntennaSDKDemoTests/Pods-AntennaSDKDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		303FC6DADE6AC1691A21596A /* Pods-AntennaSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntennaSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AntennaSDKDemo/Pods-AntennaSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5DE23BF446BFFA33F763A653 /* Pods_AntennaSDKDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntennaSDKDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		981FEE3A2071C4F000620432 /* AntennaConstNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntennaConstNotification.h; sourceTree = "<group>"; };
+		981FEE3B2071C4F000620432 /* AntennaConstEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntennaConstEvent.h; sourceTree = "<group>"; };
+		981FEE3C2071C4F000620432 /* AntennaUserDefaultKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntennaUserDefaultKey.h; sourceTree = "<group>"; };
+		981FEE3D2071C4F000620432 /* AntennaSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntennaSDK.h; sourceTree = "<group>"; };
+		981FEE3F2071C4F000620432 /* UIView+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Log.m"; sourceTree = "<group>"; };
+		981FEE402071C4F000620432 /* UIViewController+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Log.h"; sourceTree = "<group>"; };
+		981FEE412071C4F000620432 /* UIView+ABTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ABTesting.h"; sourceTree = "<group>"; };
+		981FEE422071C4F000620432 /* UIView+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Log.h"; sourceTree = "<group>"; };
+		981FEE432071C4F000620432 /* UIView+ABTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ABTesting.m"; sourceTree = "<group>"; };
+		981FEE442071C4F000620432 /* UIViewController+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Log.m"; sourceTree = "<group>"; };
+		981FEE462071C4F000620432 /* Antenna.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Antenna.m; sourceTree = "<group>"; };
+		981FEE472071C4F000620432 /* AntennaChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntennaChannel.h; sourceTree = "<group>"; };
+		981FEE482071C4F000620432 /* AntennaUploadTaskOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntennaUploadTaskOperation.h; sourceTree = "<group>"; };
+		981FEE492071C4F000620432 /* AntennaConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntennaConfig.h; sourceTree = "<group>"; };
+		981FEE4A2071C4F000620432 /* AntennaUMengChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntennaUMengChannel.h; sourceTree = "<group>"; };
+		981FEE4B2071C4F000620432 /* AntennaArchiverChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntennaArchiverChannel.m; sourceTree = "<group>"; };
+		981FEE4C2071C4F000620432 /* AntennaHTTPChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntennaHTTPChannel.h; sourceTree = "<group>"; };
+		981FEE4D2071C4F000620432 /* AntennaStreamChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntennaStreamChannel.h; sourceTree = "<group>"; };
+		981FEE4E2071C4F000620432 /* AntennaEventChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntennaEventChannel.h; sourceTree = "<group>"; };
+		981FEE4F2071C4F000620432 /* AntennaLumerjackChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntennaLumerjackChannel.h; sourceTree = "<group>"; };
+		981FEE502071C4F000620432 /* AntennaRadioWaveObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntennaRadioWaveObject.h; sourceTree = "<group>"; };
+		981FEE512071C4F000620432 /* AntennaUploadTaskOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntennaUploadTaskOperation.m; sourceTree = "<group>"; };
+		981FEE522071C4F000620432 /* AntennaChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntennaChannel.m; sourceTree = "<group>"; };
+		981FEE532071C4F000620432 /* Antenna.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Antenna.h; sourceTree = "<group>"; };
+		981FEE542071C4F000620432 /* AntennaUMengChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntennaUMengChannel.m; sourceTree = "<group>"; };
+		981FEE552071C4F000620432 /* AntennaConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntennaConfig.m; sourceTree = "<group>"; };
+		981FEE562071C4F000620432 /* AntennaArchiverChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntennaArchiverChannel.h; sourceTree = "<group>"; };
+		981FEE572071C4F000620432 /* AntennaRadioWaveObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntennaRadioWaveObject.m; sourceTree = "<group>"; };
+		981FEE582071C4F000620432 /* AntennaLumerjackChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntennaLumerjackChannel.m; sourceTree = "<group>"; };
+		981FEE592071C4F000620432 /* AntennaEventChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntennaEventChannel.m; sourceTree = "<group>"; };
+		981FEE5A2071C4F000620432 /* AntennaHTTPChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntennaHTTPChannel.m; sourceTree = "<group>"; };
+		981FEE5B2071C4F000620432 /* AntennaStreamChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntennaStreamChannel.m; sourceTree = "<group>"; };
+		981FEE5D2071C4F000620432 /* EventInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventInterceptor.h; sourceTree = "<group>"; };
+		981FEE5E2071C4F000620432 /* EventInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventInterceptor.m; sourceTree = "<group>"; };
+		9852DB93200B5A8200BDCE10 /* Antenna+POP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Antenna+POP.h"; sourceTree = "<group>"; };
+		9852DB94200B5A8200BDCE10 /* Antenna+POP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Antenna+POP.m"; sourceTree = "<group>"; };
+		9852DBA1200B7D6100BDCE10 /* POPAspect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPAspect.h; sourceTree = "<group>"; };
+		9852DBA2200B7D6100BDCE10 /* POPAspect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POPAspect.m; sourceTree = "<group>"; };
+		985B3F6F2008E657005EDCF2 /* AntennaSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntennaSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		985B3F722008E657005EDCF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		985B3F732008E657005EDCF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		985B3F752008E657005EDCF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		985B3F762008E657005EDCF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		985B3F792008E657005EDCF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		985B3F7B2008E657005EDCF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		985B3F7E2008E657005EDCF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		985B3F802008E658005EDCF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		985B3F812008E658005EDCF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		985B3F872008E658005EDCF2 /* AntennaSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntennaSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		985B3F8B2008E658005EDCF2 /* AntennaSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntennaSDKDemoTests.m; sourceTree = "<group>"; };
+		985B3F8D2008E658005EDCF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6BB0EDA9F9CAF86250C7688 /* Pods_AntennaSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntennaSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA436F1DD39B14209082F716 /* Pods-AntennaSDKDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntennaSDKDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AntennaSDKDemoTests/Pods-AntennaSDKDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		985B3F6C2008E657005EDCF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A411622BBA4E4425EDF05E /* Pods_AntennaSDKDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985B3F842008E658005EDCF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45416236AA8E837054526A93 /* Pods_AntennaSDKDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6540D1BF9B77D4DE4456778E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				303FC6DADE6AC1691A21596A /* Pods-AntennaSDKDemo.debug.xcconfig */,
+				0473DDE1FA61E75595F8F971 /* Pods-AntennaSDKDemo.release.xcconfig */,
+				BA436F1DD39B14209082F716 /* Pods-AntennaSDKDemoTests.debug.xcconfig */,
+				0D9EFB0C3649D5DD9E340BC6 /* Pods-AntennaSDKDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		981FEE382071C4F000620432 /* AntennaSDK */ = {
+			isa = PBXGroup;
+			children = (
+				981FEE3D2071C4F000620432 /* AntennaSDK.h */,
+				981FEE392071C4F000620432 /* Constans */,
+				981FEE3E2071C4F000620432 /* Anchor */,
+				981FEE452071C4F000620432 /* Antenna */,
+				981FEE5C2071C4F000620432 /* EventInterceptor */,
+			);
+			name = AntennaSDK;
+			path = ../AntennaSDK;
+			sourceTree = "<group>";
+		};
+		981FEE392071C4F000620432 /* Constans */ = {
+			isa = PBXGroup;
+			children = (
+				981FEE3A2071C4F000620432 /* AntennaConstNotification.h */,
+				981FEE3B2071C4F000620432 /* AntennaConstEvent.h */,
+				981FEE3C2071C4F000620432 /* AntennaUserDefaultKey.h */,
+			);
+			path = Constans;
+			sourceTree = "<group>";
+		};
+		981FEE3E2071C4F000620432 /* Anchor */ = {
+			isa = PBXGroup;
+			children = (
+				981FEE412071C4F000620432 /* UIView+ABTesting.h */,
+				981FEE432071C4F000620432 /* UIView+ABTesting.m */,
+				981FEE422071C4F000620432 /* UIView+Log.h */,
+				981FEE3F2071C4F000620432 /* UIView+Log.m */,
+				981FEE402071C4F000620432 /* UIViewController+Log.h */,
+				981FEE442071C4F000620432 /* UIViewController+Log.m */,
+			);
+			path = Anchor;
+			sourceTree = "<group>";
+		};
+		981FEE452071C4F000620432 /* Antenna */ = {
+			isa = PBXGroup;
+			children = (
+				981FEE532071C4F000620432 /* Antenna.h */,
+				981FEE462071C4F000620432 /* Antenna.m */,
+				981FEE562071C4F000620432 /* AntennaArchiverChannel.h */,
+				981FEE4B2071C4F000620432 /* AntennaArchiverChannel.m */,
+				981FEE472071C4F000620432 /* AntennaChannel.h */,
+				981FEE522071C4F000620432 /* AntennaChannel.m */,
+				981FEE492071C4F000620432 /* AntennaConfig.h */,
+				981FEE552071C4F000620432 /* AntennaConfig.m */,
+				981FEE4E2071C4F000620432 /* AntennaEventChannel.h */,
+				981FEE592071C4F000620432 /* AntennaEventChannel.m */,
+				981FEE4C2071C4F000620432 /* AntennaHTTPChannel.h */,
+				981FEE5A2071C4F000620432 /* AntennaHTTPChannel.m */,
+				981FEE4F2071C4F000620432 /* AntennaLumerjackChannel.h */,
+				981FEE582071C4F000620432 /* AntennaLumerjackChannel.m */,
+				981FEE502071C4F000620432 /* AntennaRadioWaveObject.h */,
+				981FEE572071C4F000620432 /* AntennaRadioWaveObject.m */,
+				981FEE4D2071C4F000620432 /* AntennaStreamChannel.h */,
+				981FEE5B2071C4F000620432 /* AntennaStreamChannel.m */,
+				981FEE4A2071C4F000620432 /* AntennaUMengChannel.h */,
+				981FEE542071C4F000620432 /* AntennaUMengChannel.m */,
+				981FEE482071C4F000620432 /* AntennaUploadTaskOperation.h */,
+				981FEE512071C4F000620432 /* AntennaUploadTaskOperation.m */,
+			);
+			path = Antenna;
+			sourceTree = "<group>";
+		};
+		981FEE5C2071C4F000620432 /* EventInterceptor */ = {
+			isa = PBXGroup;
+			children = (
+				981FEE5D2071C4F000620432 /* EventInterceptor.h */,
+				981FEE5E2071C4F000620432 /* EventInterceptor.m */,
+			);
+			path = EventInterceptor;
+			sourceTree = "<group>";
+		};
+		985B3F662008E657005EDCF2 = {
+			isa = PBXGroup;
+			children = (
+				981FEE382071C4F000620432 /* AntennaSDK */,
+				985B3F712008E657005EDCF2 /* AntennaSDKDemo */,
+				985B3F8A2008E658005EDCF2 /* AntennaSDKDemoTests */,
+				985B3F702008E657005EDCF2 /* Products */,
+				6540D1BF9B77D4DE4456778E /* Pods */,
+				C92F723E603B141594F502CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		985B3F702008E657005EDCF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				985B3F6F2008E657005EDCF2 /* AntennaSDKDemo.app */,
+				985B3F872008E658005EDCF2 /* AntennaSDKDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		985B3F712008E657005EDCF2 /* AntennaSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				985B3F722008E657005EDCF2 /* AppDelegate.h */,
+				985B3F732008E657005EDCF2 /* AppDelegate.m */,
+				985B3F752008E657005EDCF2 /* ViewController.h */,
+				985B3F762008E657005EDCF2 /* ViewController.m */,
+				985B3F782008E657005EDCF2 /* Main.storyboard */,
+				985B3F7B2008E657005EDCF2 /* Assets.xcassets */,
+				985B3F7D2008E657005EDCF2 /* LaunchScreen.storyboard */,
+				985B3F802008E658005EDCF2 /* Info.plist */,
+				985B3F812008E658005EDCF2 /* main.m */,
+				9852DB93200B5A8200BDCE10 /* Antenna+POP.h */,
+				9852DB94200B5A8200BDCE10 /* Antenna+POP.m */,
+				9852DBA1200B7D6100BDCE10 /* POPAspect.h */,
+				9852DBA2200B7D6100BDCE10 /* POPAspect.m */,
+			);
+			path = AntennaSDKDemo;
+			sourceTree = "<group>";
+		};
+		985B3F8A2008E658005EDCF2 /* AntennaSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				985B3F8B2008E658005EDCF2 /* AntennaSDKDemoTests.m */,
+				985B3F8D2008E658005EDCF2 /* Info.plist */,
+			);
+			path = AntennaSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		C92F723E603B141594F502CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6BB0EDA9F9CAF86250C7688 /* Pods_AntennaSDKDemo.framework */,
+				5DE23BF446BFFA33F763A653 /* Pods_AntennaSDKDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		985B3F6E2008E657005EDCF2 /* AntennaSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 985B3F902008E658005EDCF2 /* Build configuration list for PBXNativeTarget "AntennaSDKDemo" */;
+			buildPhases = (
+				EA46430A9B1DAD6BC4EA93DC /* [CP] Check Pods Manifest.lock */,
+				985B3F6B2008E657005EDCF2 /* Sources */,
+				985B3F6C2008E657005EDCF2 /* Frameworks */,
+				985B3F6D2008E657005EDCF2 /* Resources */,
+				D2D2EDEF7332C47B85572CF5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AntennaSDKDemo;
+			productName = AntennaSDKDemo;
+			productReference = 985B3F6F2008E657005EDCF2 /* AntennaSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		985B3F862008E658005EDCF2 /* AntennaSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 985B3F932008E658005EDCF2 /* Build configuration list for PBXNativeTarget "AntennaSDKDemoTests" */;
+			buildPhases = (
+				4BA8E0571609E62702FF765E /* [CP] Check Pods Manifest.lock */,
+				985B3F832008E658005EDCF2 /* Sources */,
+				985B3F842008E658005EDCF2 /* Frameworks */,
+				985B3F852008E658005EDCF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				985B3F892008E658005EDCF2 /* PBXTargetDependency */,
+			);
+			name = AntennaSDKDemoTests;
+			productName = AntennaSDKDemoTests;
+			productReference = 985B3F872008E658005EDCF2 /* AntennaSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		985B3F672008E657005EDCF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Brooks;
+				TargetAttributes = {
+					985B3F6E2008E657005EDCF2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					985B3F862008E658005EDCF2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 985B3F6E2008E657005EDCF2;
+					};
+				};
+			};
+			buildConfigurationList = 985B3F6A2008E657005EDCF2 /* Build configuration list for PBXProject "AntennaSDKDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 985B3F662008E657005EDCF2;
+			productRefGroup = 985B3F702008E657005EDCF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				985B3F6E2008E657005EDCF2 /* AntennaSDKDemo */,
+				985B3F862008E658005EDCF2 /* AntennaSDKDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		985B3F6D2008E657005EDCF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985B3F7F2008E657005EDCF2 /* LaunchScreen.storyboard in Resources */,
+				985B3F7C2008E657005EDCF2 /* Assets.xcassets in Resources */,
+				985B3F7A2008E657005EDCF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985B3F852008E658005EDCF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BA8E0571609E62702FF765E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AntennaSDKDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2D2EDEF7332C47B85572CF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AntennaSDKDemo/Pods-AntennaSDKDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
+				"${BUILT_PRODUCTS_DIR}/Base64/Base64.framework",
+				"${BUILT_PRODUCTS_DIR}/GZIP/GZIP.framework",
+				"${BUILT_PRODUCTS_DIR}/LKArchiver/LKArchiver.framework",
+				"${BUILT_PRODUCTS_DIR}/MD5Digest/MD5Digest.framework",
+				"${BUILT_PRODUCTS_DIR}/NSURL+QueryDictionary/NSURL_QueryDictionary.framework",
+				"${BUILT_PRODUCTS_DIR}/SDVersion/SDVersion.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Base64.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GZIP.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LKArchiver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MD5Digest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSURL_QueryDictionary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDVersion.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AntennaSDKDemo/Pods-AntennaSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA46430A9B1DAD6BC4EA93DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AntennaSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		985B3F6B2008E657005EDCF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981FEE692071C4F000620432 /* AntennaLumerjackChannel.m in Sources */,
+				981FEE622071C4F000620432 /* Antenna.m in Sources */,
+				985B3F772008E657005EDCF2 /* ViewController.m in Sources */,
+				985B3F822008E658005EDCF2 /* main.m in Sources */,
+				981FEE632071C4F000620432 /* AntennaArchiverChannel.m in Sources */,
+				981FEE662071C4F000620432 /* AntennaUMengChannel.m in Sources */,
+				9852DB95200B5A8200BDCE10 /* Antenna+POP.m in Sources */,
+				981FEE6B2071C4F000620432 /* AntennaHTTPChannel.m in Sources */,
+				981FEE642071C4F000620432 /* AntennaUploadTaskOperation.m in Sources */,
+				981FEE612071C4F000620432 /* UIViewController+Log.m in Sources */,
+				981FEE6D2071C4F000620432 /* EventInterceptor.m in Sources */,
+				981FEE682071C4F000620432 /* AntennaRadioWaveObject.m in Sources */,
+				981FEE602071C4F000620432 /* UIView+ABTesting.m in Sources */,
+				981FEE672071C4F000620432 /* AntennaConfig.m in Sources */,
+				981FEE6C2071C4F000620432 /* AntennaStreamChannel.m in Sources */,
+				981FEE5F2071C4F000620432 /* UIView+Log.m in Sources */,
+				981FEE6A2071C4F000620432 /* AntennaEventChannel.m in Sources */,
+				981FEE652071C4F000620432 /* AntennaChannel.m in Sources */,
+				985B3F742008E657005EDCF2 /* AppDelegate.m in Sources */,
+				9852DBA3200B7D6100BDCE10 /* POPAspect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985B3F832008E658005EDCF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985B3F8C2008E658005EDCF2 /* AntennaSDKDemoTests.m in Sources */,
+				9852DBA4200B7D6100BDCE10 /* POPAspect.m in Sources */,
+				9852DB96200B5A8200BDCE10 /* Antenna+POP.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		985B3F892008E658005EDCF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 985B3F6E2008E657005EDCF2 /* AntennaSDKDemo */;
+			targetProxy = 985B3F882008E658005EDCF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		985B3F782008E657005EDCF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				985B3F792008E657005EDCF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		985B3F7D2008E657005EDCF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				985B3F7E2008E657005EDCF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		985B3F8E2008E658005EDCF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		985B3F8F2008E658005EDCF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		985B3F912008E658005EDCF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303FC6DADE6AC1691A21596A /* Pods-AntennaSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/UMengAnalytics-NO-IDFA/umsdk_IOS_analyics_no-idfa_v4.2.5",
+				);
+				INFOPLIST_FILE = AntennaSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrooksWon.AntennaSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		985B3F922008E658005EDCF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0473DDE1FA61E75595F8F971 /* Pods-AntennaSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/UMengAnalytics-NO-IDFA/umsdk_IOS_analyics_no-idfa_v4.2.5",
+				);
+				INFOPLIST_FILE = AntennaSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrooksWon.AntennaSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		985B3F942008E658005EDCF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA436F1DD39B14209082F716 /* Pods-AntennaSDKDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AntennaSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrooksWon.AntennaSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AntennaSDKDemo.app/AntennaSDKDemo";
+			};
+			name = Debug;
+		};
+		985B3F952008E658005EDCF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9EFB0C3649D5DD9E340BC6 /* Pods-AntennaSDKDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AntennaSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrooksWon.AntennaSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AntennaSDKDemo.app/AntennaSDKDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		985B3F6A2008E657005EDCF2 /* Build configuration list for PBXProject "AntennaSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				985B3F8E2008E658005EDCF2 /* Debug */,
+				985B3F8F2008E658005EDCF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		985B3F902008E658005EDCF2 /* Build configuration list for PBXNativeTarget "AntennaSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				985B3F912008E658005EDCF2 /* Debug */,
+				985B3F922008E658005EDCF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		985B3F932008E658005EDCF2 /* Build configuration list for PBXNativeTarget "AntennaSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				985B3F942008E658005EDCF2 /* Debug */,
+				985B3F952008E658005EDCF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 985B3F672008E657005EDCF2 /* Project object */;
+}

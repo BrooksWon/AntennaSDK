@@ -1,0 +1,11 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/Aspects" "${PODS_CONFIGURATION_BUILD_DIR}/Base64" "${PODS_CONFIGURATION_BUILD_DIR}/GZIP" "${PODS_CONFIGURATION_BUILD_DIR}/LKArchiver" "${PODS_CONFIGURATION_BUILD_DIR}/MD5Digest" "${PODS_CONFIGURATION_BUILD_DIR}/NSURL+QueryDictionary" "${PODS_CONFIGURATION_BUILD_DIR}/SDVersion" "${PODS_ROOT}/UMengAnalytics-NO-IDFA/umsdk_IOS_analyics_no-idfa_v4.2.5"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Aspects/Aspects.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Base64/Base64.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GZIP/GZIP.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LKArchiver/LKArchiver.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MD5Digest/MD5Digest.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/NSURL+QueryDictionary/NSURL_QueryDictionary.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SDVersion/SDVersion.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "$(PODS_ROOT)/UMengAnalytics-NO-IDFA/**"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"sqlite3" -l"z" -framework "AFNetworking" -framework "Aspects" -framework "Base64" -framework "CoreGraphics" -framework "CoreTelephony" -framework "Foundation" -framework "GZIP" -framework "LKArchiver" -framework "MD5Digest" -framework "MobileCoreServices" -framework "NSURL_QueryDictionary" -framework "SDVersion" -framework "Security" -framework "SystemConfiguration" -framework "UMMobClick"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

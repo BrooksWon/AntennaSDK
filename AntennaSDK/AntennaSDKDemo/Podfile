@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+#target 'AntennaSDKDemo' do
+#  #use_frameworks!
+#
+#  source 'https://github.com/CocoaPods/Specs.git'
+#  source 'https://gitlab.Brooks.com/ios/RRCSpecs'
+#
+#  pod 'AntennaSDK', '0.0.1.9'
+#
+#  target 'AntennaSDKDemoTests' do
+#    inherit! :search_paths
+#  end
+#
+#end
+
+ target 'AntennaSDKDemo' do
+   use_frameworks!
+
+     pod 'AFNetworking', '~> 3.1.0'
+     pod 'Aspects', '~> 1.4.1'
+     pod 'Base64', '~> 1.1.2'
+     pod 'GZIP', '~> 1.1.1'
+     pod 'LKArchiver', '~> 1.3.1'
+     pod 'MD5Digest', '~> 1.1.0'
+     pod 'NSURL+QueryDictionary', '~> 1.2.0'
+     pod 'SDVersion', '~> 4.3.1'
+     pod 'UMengAnalytics-NO-IDFA', '~> 4.2.5'
+
+   target 'AntennaSDKDemoTests' do
+     inherit! :search_paths
+   end
+
+ end
+

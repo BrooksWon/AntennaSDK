@@ -1,0 +1,6 @@
+framework module LKArchiver {
+  umbrella header "LKArchiver-umbrella.h"
+
+  export *
+  module * { export * }
+}
